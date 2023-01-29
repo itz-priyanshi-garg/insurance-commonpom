@@ -1,4 +1,4 @@
-name: Insurance CommonPom
+name: Upload Website
 
 on:
   push:
