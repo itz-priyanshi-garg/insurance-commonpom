@@ -3,7 +3,7 @@ name: Insurance CommonPom
 on:
   push:
     branches:
-    - master
+    - main
 
 jobs:
   deploy:
