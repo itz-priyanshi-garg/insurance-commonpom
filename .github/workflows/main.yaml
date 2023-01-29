@@ -16,7 +16,7 @@ jobs:
         exclude: '
           - **/.git*
           - **/.git*/*
-          - '.git*/*'
+          - .git*/*
           '
       env:
         AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
