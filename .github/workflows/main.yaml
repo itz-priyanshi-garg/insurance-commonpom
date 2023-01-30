@@ -14,7 +14,8 @@ jobs:
       with:
         args: --acl public-read --follow-symlinks --delete 
         exclude: '
-          - .git*/*
+          - .git/
+          - .github/
           '
       env:
         AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
